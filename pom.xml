@@ -8,7 +8,9 @@
     <modules>
         <module>auth-service</module>
         <module>config-server</module>
-        <module>confit-repo</module>
+        <module>config-repo</module>
+        <module>eureka-server</module>
+        <module>micro-sample</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -51,11 +53,21 @@
             <artifactId>spring-cloud-config-server</artifactId>
             <version>1.2.1.RELEASE</version>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
             <version>1.2.1.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+            <version>1.2.1.RELEASE</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>servlet-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
 

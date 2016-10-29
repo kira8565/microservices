@@ -23,14 +23,20 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="auth-service" />
+        <module name="config-repo" />
         <module name="config-server" />
         <module name="confit-repo" />
+        <module name="eureka-server" />
+        <module name="micro-sample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="auth-service" target="1.6" />
+      <module name="config-repo" target="1.6" />
       <module name="config-server" target="1.6" />
       <module name="confit-repo" target="1.6" />
+      <module name="eureka-server" target="1.6" />
+      <module name="micro-sample" target="1.6" />
       <module name="microservices" target="1.6" />
     </bytecodeTargetLevel>
   </component>
