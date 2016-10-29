@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/auth-service/auth-service.iml" filepath="$PROJECT_DIR$/auth-service/auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-repo/confit-repo.iml" filepath="$PROJECT_DIR$/config-repo/confit-repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservices.iml" filepath="$PROJECT_DIR$/microservices.iml" />
     </modules>
   </component>

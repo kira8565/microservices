@@ -23,10 +23,14 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="auth-service" />
+        <module name="config-server" />
+        <module name="confit-repo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="auth-service" target="1.6" />
+      <module name="config-server" target="1.6" />
+      <module name="confit-repo" target="1.6" />
       <module name="microservices" target="1.6" />
     </bytecodeTargetLevel>
   </component>
